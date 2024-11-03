@@ -1,0 +1,57 @@
+.topNav {
+  position: relative;
+
+  width: 100%;
+  padding: 25px;
+
+  text-align: center;
+  border-bottom: 4px solid #e3e3e3;
+}
+
+.topNav>a {
+  position: relative;
+  margin: 0 20px;
+  color: #929292;
+}
+
+.topNav>a:hover {
+  color: black;
+  transition: .2s;
+}
+
+.topNav>a::after {
+  position: absolute;
+  content: "";
+  background: transparent;
+  height: 0px;
+  width: 100%;
+
+  bottom: -130%;
+  z-index: -1;
+  transition: .2s ease-in-out;
+}
+
+.topNav>a:hover::after {
+  background: rgba(230, 230, 230, 0.8);
+  height: 70px;
+}
+
+.topNav>a:nth-child(1)::after {
+  width: 120%;
+  left: -5px;
+}
+
+.topNav>a:nth-child(2)::after {
+  width: 123%;
+  left: -5px;
+}
+
+.topNav>a:nth-child(3)::after {
+  width: 114%;
+  left: -5px;
+}
+
+.topNav>a:nth-child(4)::after {
+  width: 122%;
+  left: -5px;
+}

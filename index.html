@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jam Dinding Kegiatan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="clock-container">
+      <div class="clock">
+        <div class="clock-face">
+          <div
+            class="number"
+            style="top: 10%; left: 50%; transform: translate(-50%, -50%)"
+          >
+            12
+          </div>
+          <div
+            class="number"
+            style="top: 25%; left: 85%; transform: translate(-50%, -50%)"
+          >
+            1
+          </div>
+          <div
+            class="number"
+            style="top: 50%; left: 90%; transform: translate(-50%, -50%)"
+          >
+            2
+          </div>
+          <div
+            class="number"
+            style="top: 75%; left: 85%; transform: translate(-50%, -50%)"
+          >
+            3
+          </div>
+          <div
+            class="number"
+            style="top: 90%; left: 50%; transform: translate(-50%, -50%)"
+          >
+            4
+          </div>
+          <div
+            class="number"
+            style="top: 75%; left: 15%; transform: translate(-50%, -50%)"
+          >
+            5
+          </div>
+          <div
+            class="number"
+            style="top: 50%; left: 10%; transform: translate(-50%, -50%)"
+          >
+            6
+          </div>
+          <div
+            class="number"
+            style="top: 25%; left: 15%; transform: translate(-50%, -50%)"
+          >
+            7
+          </div>
+          <div
+            class="number"
+            style="top: 10%; left: 50%; transform: translate(-50%, -50%)"
+          >
+            8
+          </div>
+          <div
+            class="number"
+            style="top: 25%; left: 15%; transform: translate(-50%, -50%)"
+          >
+            9
+          </div>
+          <div
+            class="number"
+            style="top: 50%; left: 10%; transform: translate(-50%, -50%)"
+          >
+            10
+          </div>
+          <div
+            class="number"
+            style="top: 75%; left: 15%; transform: translate(-50%, -50%)"
+          >
+            11
+          </div>
+        </div>
+        <div class="hand hour" id="hourHand"></div>
+        <div class="hand minute" id="minuteHand"></div>
+        <div class="hand second" id="secondHand"></div>
+      </div>
+
+      <div class="input-container">
+        <input
+          type="text"
+          id="activity-input"
+          placeholder="Masukkan nama kegiatan"
+        />
+        <button id="add-activity-btn">Tambah Kegiatan</button>
+        <div class="activities-list">
+          <!-- Kegiatan akan ditampilkan di sini -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
